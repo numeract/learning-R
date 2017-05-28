@@ -7,6 +7,10 @@
 - [Managing many models with R](https://www.youtube.com/watch?v=rz3_FDVt9eg) (video)
 - [A new data processing workflow for R](http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/)
 
+### Excel users
+
+If coming from Excel, you might find the following series useful: [YouTube video series "R Programming for Excel Users" by Dave Langer](https://github.com/EasyD/RProgrammingForExcelUsers)
+
 
 ## ETL
 

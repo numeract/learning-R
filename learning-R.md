@@ -36,11 +36,8 @@
 
 ### Main books
 
-**Very important**
-
-- [R for Data Science](http://r4ds.had.co.nz/) (online book)
-- [Advanced R](http://adv-r.had.co.nz/) (online book)
-
+- [R for Data Science](http://r4ds.had.co.nz/) (online book) **Very important**
+- [Advanced R](http://adv-r.had.co.nz/) (online book) **Very important**
 - [R packages](http://r-pkgs.had.co.nz/) (online book)
 
 
@@ -57,5 +54,5 @@
 
 Most important courses (to be updated)
 
-- Writing Functions in R
+- [Writing Functions in R](https://www.datacamp.com/courses/writing-functions-in-r)
 

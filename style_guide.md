@@ -1,5 +1,8 @@
 # Code Style Guide
 
+**Consistency is key!**
+
+
 ## R Style Guide
 
 Main guide: [tidyverse style guide](http://style.tidyverse.org/)
@@ -21,7 +24,7 @@ Below are more specific guidelines
 - Functions names should be verbs
     + except for math-line functions such as `cos()`
     + should fit on one page (if longer, think about creating a second function)
-- If using [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation), consider using the suffixes from `purrr::`, such as `_dbl`, `_lgl`, etc.
+- When using [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation), consider using the suffixes from `purrr::`, such as `_dbl`, `_lgl`, etc.
     + other suffixes: 
         + `_msk`: mask for logical/selecting within a vector
         + `_idx`: index, as in `var_idx <- which(var_msk)`
@@ -30,4 +33,3 @@ Below are more specific guidelines
     + *preference for singular*
     + use singular for dataframes, SQL tables, ORM classes
     + use plural for vectors, e.g.,  `customer_names`
-    + *consistency is key*

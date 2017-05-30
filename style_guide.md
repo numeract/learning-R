@@ -10,6 +10,20 @@ Main guide: [tidyverse style guide](http://style.tidyverse.org/)
 Below are more specific guidelines
 
 
+## Line length
+
+- use 4 spaces (not the `tab` character) to indent
+- do not exceed 80 characters per line
+    + very helpful to be able to open windows side by side w/o scrolling
+    + very helpful to be able to see the code in a terminal window (if needed)
+- functions hint: for long lines use this format (which can work with pipes too)
+```R
+    long_function_name_that_never_ends(
+        first_long_argument_name = 1,
+        second_long_argument_name = 2,
+    )
+```
+
 ## Comments and documentation
 
 - Always in English, run spell-checker

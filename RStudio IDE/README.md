@@ -7,6 +7,7 @@
     + Ctrl-I to re-indent the line
     + Ctrl-/ to comment the line (custom, re-mapped!)
     + review all of the shortcuts with Alt-Shift-K
+- [Multiple Cursors](https://blog.rstudio.org/2015/05/06/rstudio-v0-99-preview-more-editor-enhancements/) are very useful
 
 
 ## Options

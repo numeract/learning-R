@@ -23,13 +23,3 @@
     + [library() vs require() in R](https://yihui.name/en/2014/07/library-vs-require/)
 
 
-## Statements
-
-- For if-else, use curly brackets
-    ```R
-    if (condition) {
-        # do something when condition is TRUE
-    } else {
-        # do something else when condition is FALSE
-    }
-    ```

@@ -12,7 +12,7 @@ Below are more specific guidelines
 
 ## Line length
 
-- use 4 spaces (not the `tab` character) to indent
+- use 4 spaces (not the `tab` character and not 2 spaces) to indent
 - do not exceed 80 characters per line
     + very helpful to be able to open windows side by side w/o scrolling
     + very helpful to be able to see the code in a terminal window (if needed)
@@ -26,7 +26,7 @@ Below are more specific guidelines
 
 ## Comments and documentation
 
-- Always in English, run spell-checker
+- Always in English, please run a spell-checker
 - Explain *Why* not *What* (assume people know the programming language)
     + leave a space after the comment symbol, as in `# `
 
@@ -37,11 +37,14 @@ Below are more specific guidelines
     + This works for Python, R and SQL identifiers
 - Functions names should be verbs
     + except for math-line functions such as `cos()`
+    + avoid `get_` and `set_` unless they are OO like methods
     + should fit on one page (if longer, think about creating a second function)
 - When using [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation), consider using the suffixes from `purrr::`, such as `_dbl`, `_lgl`, etc.
     + other suffixes: 
         + `_msk`: mask for logical/selecting within a vector
         + `_idx`: index, as in `var_idx <- which(var_msk)`
+        + `_sp`: spatial package
+        + `_mat`: matrix
 - Table / collection / list names: singular or plural?
     + [good subjective discussion](http://stackoverflow.com/questions/338156/table-naming-dilemma-singular-vs-plural-names)
     + *preference for singular*

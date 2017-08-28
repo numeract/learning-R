@@ -12,8 +12,8 @@
 
 ## Options
 
-See [RStudio Options](options/README)
+See [RStudio Options](options)
 
 ## GitHub
 
-For a simple tutorial to pull code, see [RStudio GitHub config](github/README)
+For a simple tutorial to pull code, see [RStudio GitHub config](github/README.md)

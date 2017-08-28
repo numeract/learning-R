@@ -1,7 +1,7 @@
 # RStudio & GitHub
 
 This is a very simple tutorial that allows you to configure RStudio and obtain
-code from GitHub. It is not a Git tutorial.
+code from GitHub - it is not a comprehensive Git tutorial.
 
 
 ## 1. Install
@@ -12,13 +12,13 @@ code from GitHub. It is not a Git tutorial.
   + it is OK to install other packages required by RStudio
 
 
-### Checks
+#### Checks
 
 - RStudio IDE > Options > General should display the R version used
 - RStudio IDE > Options > Git/SVN should identify the **Git executable**
 
 
-### Optional tools
+#### Optional tools
 
 - if on Windows, [RTools](https://cran.r-project.org/bin/windows/Rtools/)
 - if on Windows or OSX and making extensive use of git, [SourceTree](https://www.sourcetreeapp.com/)
@@ -26,7 +26,7 @@ code from GitHub. It is not a Git tutorial.
 
 ## 2. Configure Remote Repository 
 
-### GitHub
+#### GitHub
 
 - Create your own GitHub account
   + optionally, enable 2FA and test logging in
@@ -37,7 +37,7 @@ code from GitHub. It is not a Git tutorial.
 **Note:** If you are already familiar with RSA Keys and have generated your key,
 you may skip these steps
 
-- RStudio IDE > Options > Git/SVN  > Create RSA Key
+#### RStudio IDE > Options > Git/SVN  > Create RSA Key
 
 ![Options dialog](01-options.png)
 
@@ -54,7 +54,7 @@ The private key (`id_rsa`) should always be kept private.
 
 ## 4. Add Public Key to GitHub
 
-- RStudio IDE > Options > Git/SVN > View Public Key
+#### RStudio IDE > Options > Git/SVN > View Public Key
 
 ![RStudio finds the key](04-rstudio-key.png)
 
@@ -62,18 +62,18 @@ The private key (`id_rsa`) should always be kept private.
 
 Copy the Public Key to the Clipboard
 
-- Go to: GitHub > Settings > SSH and GPG keys
+#### Go to: GitHub > Settings > SSH and GPG keys
 
 ![GitHub Keys](06-github-keys.png)
 
-- Add SSH Key to GitHub
+#### Add SSH Key to GitHub
 
 ![GitHub Add SSH Key](07-github-add.png)
 
 
 ## 5. Clone RStudio Project
 
-- RStudio IDE > File > New Project ... > Version Control > Git 
+#### RStudio IDE > File > New Project ... > Version Control > Git 
 
 ![RStudio New Project](11-rstudio-project.png)
 
@@ -81,13 +81,13 @@ Select Git, it should look like this:
 
 ![Configure Project](12-configure-project.png)
 
-- Go to: GitHub > project repository > get link
+#### Go to: GitHub > project repository > get link
 
 Select "Clone with SSH" then copy to Clipboard the `git@github...` link.
 
 ![GitHub Link](13-github-link.png)
 
-- Copy and Paste the link into RStudio dialog box
+#### Copy and Paste the link into RStudio dialog box
 
 The Project directory name should be populated automatically. 
 You should select the parent folder. 
@@ -95,9 +95,9 @@ You should select the parent folder.
 ![Configure Project](14-configure-project.png)
 
 
-- Press [Create Project]
+#### Press [Create Project]
 
-If the RSA keys are not configured correctly you will see an error message.
+If the RSA keys are not configured correctly, you will see an error message.
 `Permission denied (publickey)`
 
 If successful, RStudio will open the new project and in the **Files** panel
@@ -110,10 +110,10 @@ You will also see a **Git** panel
 ## 6. Update your local files
 
 If you want to keep your *local repository* up to date, you need to **Pull**
-code from the *remote repository (GitHub)*
+code from the *remote repository (GitHub)*.
 
 
-- RStudio IDE > Git panel > press **Pull**
+#### RStudio IDE > Git panel > press **Pull**
 
 ![RStudio Git Pull](15-git-pull.png)
 

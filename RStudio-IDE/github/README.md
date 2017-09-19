@@ -11,12 +11,14 @@ code from GitHub - it is not a comprehensive Git tutorial.
 - RStudio IDE desktop from [RStudio](https://www.rstudio.com/products/rstudio/download)
   + it is OK to install other packages required by RStudio
 
-
 ### Checks
 
 - RStudio IDE > Options > General should display the R version used
 - RStudio IDE > Options > Git/SVN should identify the **Git executable**
-
+- On **OS X Sierra** you might see a dialog box asking to install Xcode. Let it install it,
+but be sure to change the path to the `git` executable for both RStudio and Terminal.
+  + For RStudio: point the git executable to `/usr/local/git/bin/git`
+  + For Terminal: please follow the instructions at the [bottom of this page](https://modulesunraveled.com/installing-git/installing-git-if-you-do-not-have-xcode-or-command-line-developer-tools-installed)
 
 #### Optional tools
 
@@ -50,6 +52,16 @@ Do not generate a new key if RStudio finds one!
 Note the location (folder) of the files and the name of the files (id_rsa). 
 There are two keys / files: the public one (`id_rsa.pub`) is OK to share. 
 The private key (`id_rsa`) should always be kept private.
+
+On OS X, you might have to run the following commands to configure the `~/.ssh/` dir:
+
+```
+chmod 700 ~/.ssh
+chmod 400 ~/.ssh/id_rsa
+chmod 400 ~/.ssh/id_rsa.pub
+```
+
+Test connection to GitHub with: `ssh -T git@github.com`
 
 
 ## 4. Add Public Key to GitHub

@@ -1,7 +1,8 @@
 # RStudio & GitHub
 
 This is a very simple tutorial that allows you to configure RStudio and obtain
-code from GitHub - it is not a comprehensive Git tutorial.
+code from GitHub - it is not a comprehensive Git tutorial. For a more detailed 
+Git tutorial, please see Hadley's [Git and GitHub](http://r-pkgs.had.co.nz/git.html).
 
 
 ## 1. Install
@@ -31,7 +32,7 @@ but be sure to change the path to the `git` executable for both RStudio and Term
 ### GitHub
 
 - Create your own GitHub account
-  + optionally, enable 2FA and test logging in
+  + optionally, enable [two-factor authentication (2FA)](https://help.github.com/articles/configuring-two-factor-authentication-via-a-totp-mobile-app/) and test it by logging in
 
 
 ## 3. Setup Keys

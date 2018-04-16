@@ -32,6 +32,9 @@ Shiny allows you to create **dynamic** apps like these:
   - Shiny and ggvis, ggplot2
   - Linking plots
   - Gadgets
+* [Shiny UI](https://www.rstudio.com/resources/videos/shiny-ui/)
+
+  - Integrate Shiny inside HTML
 * [Debugging Techniques](https://www.rstudio.com/resources/videos/debugging-techniques)
 
 ### 2. Starting to code
@@ -65,3 +68,7 @@ Shiny allows you to create **dynamic** apps like these:
 * [Google Analytics to Shiny App](https://shiny.rstudio.com/articles/google-analytics.html)
 * [Pool Basics (better interaction with DBs)](https://shiny.rstudio.com/articles/pool-basics.html)
   
+### Other
+
+* [Shiny cookbook](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps)
+* [RStudio Shiny Lessons](https://shiny.rstudio.com/tutorial/written-tutorial)

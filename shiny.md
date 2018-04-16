@@ -6,7 +6,9 @@ Official page: https://shiny.rstudio.com
 
 #### Why Shiny?
 
-Shiny allows you to create **dynamic** apps like [this](https://shiny.rstudio.com/gallery/bus-dashboard.html) or [this](https://shiny.rstudio.com/gallery/movie-explorer.html).
+Shiny allows you to create **dynamic** apps like these:
+* https://shiny.rstudio.com/gallery/bus-dashboard.html
+* https://shiny.rstudio.com/gallery/movie-explorer.html
 
 ### 1. Essentials: 
 * [How to start with Shiny - Part 1](https://www.rstudio.com/resources/webinars/how-to-start-with-shiny-part-1)

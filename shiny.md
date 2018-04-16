@@ -25,16 +25,11 @@ Shiny allows you to create **dynamic** apps like [this](https://shiny.rstudio.co
 * [Dynamic Dashboards with Shiny](https://www.rstudio.com/resources/webinars/dynamic-dashboards-with-shiny)
 
   - Dashboard layout
-* [shinyapps.io Overview](https://www.rstudio.com/resources/webinars/shinyappsio-overview-and-tour)
-
-  - How to configure your Shiny apps (visibility, maximum no. connections)
-  - **Troubleshooting part**
 * [Interactive Graphics with Shiny](https://www.rstudio.com/resources/webinars/interactive-graphics-with-shiny)
 
   - Shiny and ggvis, ggplot2
   - Linking plots
   - Gadgets
-* [Understanding Shiny Modules](https://www.rstudio.com/resources/webinars/understanding-shiny-modules)
 * [Debugging Techniques](https://www.rstudio.com/resources/videos/debugging-techniques)
 
 ### 2. Starting to code
@@ -55,9 +50,14 @@ Shiny allows you to create **dynamic** apps like [this](https://shiny.rstudio.co
 * [Sanitizing Errors](https://shiny.rstudio.com/articles/sanitize-errors.html)
 
 ### 5. Should know about:
+* [shinyapps.io Overview](https://www.rstudio.com/resources/webinars/shinyappsio-overview-and-tour)
+
+  - How to configure your Shiny apps (visibility, maximum no. connections)
+  - **Troubleshooting part**
+* [Understanding Shiny Modules](https://www.rstudio.com/resources/webinars/understanding-shiny-modules)
 * [Introducing Bookmarkable State for Shiny](https://www.rstudio.com/resources/webinars/introducing-bookmarkable-state-for-shiny)
 * [Interfacing DataTables](https://www.rstudio.com/resources/videos/interfacing-datatables)
-* [Grid Style Sheets](https://www.rstudio.com/resources/videos/grid-style-sheets)]
+* [Grid Style Sheets](https://www.rstudio.com/resources/videos/grid-style-sheets)
 * [SQL Injection Prevention](https://shiny.rstudio.com/articles/sql-injections.html)
 * [Get User Session Data in Shiny](https://shiny.rstudio.com/articles/client-data.html)
 * [Google Analytics to Shiny App](https://shiny.rstudio.com/articles/google-analytics.html)
